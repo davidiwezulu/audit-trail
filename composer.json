@@ -1,0 +1,35 @@
+{
+    "name": "davidiwezulu/audittrail",
+    "description": "Laravel package that automatically tracks changes to Eloquent models",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Davidiwezulu\\AuditTrail\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Davidiwezulu\\AuditTrail\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Davidiwezulu\\AuditTrail\\AuditTrailServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "David Iwezulu",
+            "email": "me@davidiwezulu.co.uk"
+        }
+    ]
+}
