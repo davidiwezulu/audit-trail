@@ -1,0 +1,15 @@
+# Ignore PhpStorm project files
+.idea/
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore environment files
+.env
+
+# Ignore node_modules if using Node.js
+/node_modules/
+
+# Ignore Laravel cache and logs
+/storage/logs
+/storage/framework/cache
